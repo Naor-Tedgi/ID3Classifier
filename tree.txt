@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Node Name="root" Value="Attribute1 T={ThresholdValue1}" Instances="100">
+	<Children>
+		<Node Name="Attribute1 T&gt;{ThresholdValue}" Value="class value" Instances="50"/>
+		<Node Name="Attribute1 T&lt;={ThresholdValue}" Value="Attribute2 T={ThresholdValue}" Instances="50">
+			<Children>
+				<Node Name="Attribute2 T&gt;{ThresholdValue}" Value="Attribute3 T={ThresholdValue}" Instances="34">
+					<Children>
+						<Node Name="Attribute3 T&gt;{ThresholdValue}" Value="Attribute4 T={ThresholdValue}" Instances="33">
+							<Children>
+								<Node Name="Attribute3 T&gt;{ThresholdValue}" Value="class value" Instances="12"/>
+								<Node Name="Attribute3 T&lt;={ThresholdValue}" Value="class value" Instances="21"/>
+							</Children>
+						</Node>
+						<Node Name="Attribute3 T&lt;={ThresholdValue}" Value="class value" Instances="1"/>
+					</Children>
+				</Node>
+				<Node Name="Attribute2 T&lt;={ThresholdValue}" Value="class value" Instances="16"/>
+			</Children>
+		</Node>
+	</Children>
+</Node>
+		

@@ -1,0 +1,14 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" mc:Ignorable="d" x:Class="ID3Project.MainWindow"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Button Content="Build" HorizontalAlignment="Left" Margin="37,183,0,0"   VerticalAlignment="Top" Width="151" Height="95" Click="Build_Button"/>
+        <TextBox x:Name="FileName"  HorizontalAlignment="Left" Height="99" Margin="37,33,0,0" TextWrapping="Wrap" Text="Path" VerticalAlignment="Top" Width="257"/>
+        <Button Content="Browse" HorizontalAlignment="Left" Margin="344,33,0,0" VerticalAlignment="Top" Width="143" Click="Browse_Button" Height="99"/>
+        <Button Content="Classify" HorizontalAlignment="Left" VerticalAlignment="Top" Width="158" Margin="329,183,0,0" Height="95" Click="Classify_Button"/>
+        <Button  x:Name ="Display" Content="Display The Tree" HorizontalAlignment="Left" Margin="37,183,0,0" VerticalAlignment="Top" Width="450" Height="95" Click="Display_Click"/>
+
+    </Grid>
+</Window>
